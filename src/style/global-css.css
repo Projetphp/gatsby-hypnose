@@ -1,0 +1,52 @@
+/*  Module Push content   */
+
+p {
+}
+
+h1 {
+  font-size: 74px;
+  color: #91989e;
+  font-family: "Open Sans";
+  src: url("/src/fonts/Sinhala Sangam MN.ttc") format("ttc");
+}
+
+.Navbar {
+  font-family: "Open Sans";
+  src: url("/src/fonts/Sinhala Sangam MN.ttc") format("ttc");
+}
+
+.container-push-content {
+  width: 100%;
+  background-color: #bcddfa;
+  height: 725px;
+}
+
+.child-left-container-push-content {
+  float: left;
+  margin-top: 200px;
+  margin-left: 120px;
+}
+
+.child-right-container-push-content {
+  height: 430px;
+  width: 585px;
+  margin-top: 160px;
+  margin-left: 1040px;
+  background-color: blanchedalmond;
+  position: absolute;
+}
+
+.title-push-content {
+}
+
+p.description-push-content {
+  width: 639px;
+  font-size: 17px;
+  margin-left: 65px;
+  margin-top: 70px;
+}
+
+a.cta-push-content {
+  float: right;
+  font-size: 17px;
+}
