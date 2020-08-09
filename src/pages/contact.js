@@ -1,9 +1,9 @@
 import React from "react"
-import NavBar from "/Users/alxcapa/gatsby-site/src/componants/header.js"
-import contactForm from "/Users/alxcapa/gatsby-site/src/componants/contactform.js"
-import FooterLink from "/Users/alxcapa/gatsby-site/src/componants/footer.js"
+import NavBar from "src/componants/header.js"
+
+import FooterLink from "src/componants/footer.js"
 import "bootstrap/dist/css/bootstrap.min.css"
-import ScrollIndicator from "/Users/alxcapa/gatsby-site/src/componants/scroll.js"
+import ScrollIndicator from "src/componants/scroll.js"
 
 export default function Contact() {
   return (
