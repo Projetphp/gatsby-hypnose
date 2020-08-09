@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import "/Users/alxcapa/gatsby-site/src/style/global-css.css"
+import "src/style/global-css.css"
 import Img from "gatsby-image"
 
 const Product = () => {

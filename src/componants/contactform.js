@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import "/Users/alxcapa/gatsby-site/src/style/custom-bootstrap.css"
+import "src/style/custom-bootstrap.css"
 
 class contactForm extends Component {
   render() {

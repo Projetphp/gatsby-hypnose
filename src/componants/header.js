@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 import { Navbar, Nav, NavDropdown } from "react-bootstrap"
-import Modalhome from "/Users/alxcapa/gatsby-site/src/componants/modal.js"
+import Modalhome from "src/componants/modal.js"
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import "/Users/alxcapa/gatsby-site/src/style/custom-bootstrap.css"
+import "src/style/custom-bootstrap.css"
 
 class NavBar extends Component {
   render() {

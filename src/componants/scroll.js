@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import "/Users/alxcapa/gatsby-site/src/style/global-css.css"
+import "src/style/global-css.css"
 
 class ScrollIndicator extends Component {
   constructor(props) {
