@@ -3,13 +3,14 @@
 h1 {
   font-size: 74px;
   color: #91989e;
-  font-family: "Open Sans";
-  src: url("/src/fonts/Sinhala Sangam MN.ttc") format("ttc");
+
+  font-family: "Nurom-Bold";
+  src: url("/src/fonts/nurom-bold.ttf") format("truetype");
 }
 
 .Navbar {
   font-family: "Open Sans";
-  src: url("/src/fonts/Sinhala Sangam MN.ttc") format("ttc");
+  src: url("/src/fonts/Nurom-Bold.ttf") format("truetype");
 }
 
 .container-push-content {
@@ -29,7 +30,6 @@ h1 {
   width: 585px;
   margin-top: 160px;
   margin-left: 1040px;
-  background-color: blanchedalmond;
   position: absolute;
 }
 
@@ -43,7 +43,27 @@ p.description-push-content {
   margin-top: 70px;
 }
 
+p.description-push-content2 {
+  width: 639px;
+  font-size: 17px;
+
+  margin-top: 70px;
+}
+
 a.cta-push-content {
   float: right;
   font-size: 17px;
+}
+
+.trait-menu {
+  height: 46px;
+  width: 1px;
+  background: #8a8a8a;
+  opacity: 60%;
+  z-index: 99999999999;
+}
+
+.modal-header-style {
+  margin-left: 80px;
+  margin-top: 6px;
 }

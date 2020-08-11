@@ -6,11 +6,6 @@ class VideoFull extends Component {
   render() {
     return (
       <div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <ReactPlayer
           url="https://www.youtube.com/watch?v=xk3BvNLeNgw"
           width="1920"

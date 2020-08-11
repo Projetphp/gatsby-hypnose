@@ -5,14 +5,15 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "src/style/global-css.css"
 import Img from "gatsby-image"
 
-const Product = () => {
+const Product2 = () => {
   const data = useStaticQuery(graphql`
     query {
-      productJson(id: { eq: "1" }) {
+      productJson(id: { eq: "2" }) {
+        id
         description
         title
-        cta_wording
       }
+
       image: file(relativePath: { eq: "artiste.jpg" }) {
         id
         childImageSharp {
@@ -30,18 +31,15 @@ const Product = () => {
   return (
     <div className="container-push-content">
       <div className="child-left-container-push-content">
-        <h1>{data.productJson.title}</h1>
-        <p className="description-push-content">
-          {data.productJson.description}
-        </p>
-        <a className="cta-push-content" href="">
-          {data.productJson.cta_wording}
-        </a>
+        <Img fixed={data.image.childImageSharp.fixed}></Img>
       </div>
       <div className="child-right-container-push-content">
-        <Img fixed={data.image.childImageSharp.fixed}></Img>
+        <h2>{data.productJson.title}</h2>
+        <p className="description-push-content2">
+          {data.productJson.description}
+        </p>
       </div>
     </div>
   )
 }
-export default Product
+export default Product2

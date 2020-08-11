@@ -20,14 +20,14 @@ class NavBar extends Component {
                 Sophrologie
               </NavDropdown.Item>
             </NavDropdown>
-
+            <div className="trait-menu"></div>
             <NavDropdown title="Parcours" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Formations</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Art & Inspirations
               </NavDropdown.Item>
             </NavDropdown>
-
+            <div className="trait-menu"></div>
             <NavDropdown title="Les séances" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 Prise de rendez-vous
@@ -35,8 +35,10 @@ class NavBar extends Component {
 
               <NavDropdown.Item href="#action/3.3">Livre d'or</NavDropdown.Item>
             </NavDropdown>
-
-            <Modalhome />
+            <div className="trait-menu"></div>
+            <div className="modal-header-style">
+              <Modalhome />
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

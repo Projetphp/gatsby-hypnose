@@ -4,10 +4,22 @@
 }
 
 .navbar {
-  padding: 1.8rem 1rem;
+  padding: 1.7rem 1rem;
 }
 
 .jumbotron {
   padding: 11rem 17rem;
   background-color: #ddeeff;
+}
+
+.navbar-expand-lg .navbar-collapse {
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 3.8rem;
+}
+
+.dropdown-menu {
+  min-width: 41rem;
+  padding: 1.5rem 64px;
 }

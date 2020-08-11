@@ -1,22 +1,23 @@
 [
   {
+    "id": "1",
     "title": "FABIENNE ILLIC",
     "description": "vKeep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.",
     "cta_wording": "EN SAVOIR PLUS",
     "image": "./images/amberley-romo-riggins.jpg"
   },
   {
-    "title": "Space Socks",
-    "slug": "space-socks",
-    "description": "<p>Get your feet into these spaced-out black socks with a Gatsby purple border and heel.</p>",
-    "price": "$10.00",
-    "image": "/images/erin-fox-and-sullivan.jpg"
+    "id": "2",
+    "title": "Art & Inspirations",
+    "description": "vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep {<br/>}it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.",
+    "cta_wording": "test",
+    "image": "./images/amberley-romo-riggins.jpg"
   },
   {
-    "title": "This Purple Hat Is Blazing Fast",
-    "slug": "purple-hat",
-    "description": "<p>Add more blazingly blazing speed to your wardrobe with this solid purple laundered chino twill hat.</p>",
-    "price": "$10.00",
-    "image": "/images/david-bailey-cat-hat.jpg"
+    "id": "3",
+    "title": "Hello salut",
+    "description": "vKeep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.vKeep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.Keep it simple with this vintage purple tee.",
+    "cta_wording": "EN SAVOIR PLUS",
+    "image": "./images/amberley-romo-riggins.jpg"
   }
 ]
